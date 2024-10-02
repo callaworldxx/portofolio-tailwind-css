@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >CHAIRANI NADILA</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#sertifikat"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Sertifikat</a
+                  >
+                </li>
+
+                <li class="group"></li>
+                  <a
+                    href="#portofolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Halo Gais!👋
+              <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+                >Chairani Nadila</span
+              >
+            </h1>
+
+            <h2 class="font-medium text-slate-500 text-lg mb-1 lg:text-2xl">
+              Mahasiswa | <span class="text-dark"> Copy Writing</span>
+            </h2>
+            <p class="font-medium text-slate-600 mb-7 leading-relaxed">
+              Belajar Web Programming Mudah Bukan?
+              <span class="text-dark font-serif">Bukan!</span>
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-int-out"
+              >Hubungi</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="src/img/matahari4.png"
+                alt="Image"
+                class="max-w-full mx-auto"
+              />
+
+              <span
+                class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125"
+              >
+                <svg
+                  width="500"
+                  height="500"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#fca5a5"
+                    d="M59.6,-33.1C73.9,-9.6,79.9,20,68.6,39.6C57.2,59.2,28.6,68.9,3.1,67.1C-22.4,65.3,-44.9,52.1,-57.8,31.5C-70.7,11,-74.1,-16.9,-62.9,-38.6C-51.7,-60.3,-25.8,-75.9,-1.6,-75C22.6,-74.1,45.3,-56.6,59.6,-33.1Z"
+                    transform="translate(100 100) scale(1.1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+              Yuk, Ketahui Project Saya
+            </h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              cum necessitatibus nostrum, fugit quasi consectetur libero soluta
+              obcaecati omnis beatae, vel accusantium, quis placeat. Aut vel eum
+              modi totam! Amet voluptatum modi tenetur adipisci minima! Hic
+              facilis adipisci laborum distinctio.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Mari Berteman
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, maiores. Suscipit obcaecati amet exercitationem
+              aliquam sequi blanditiis quisquam, a quam.
+            </p>
+            <div class="flex items-center">
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/cndilacc/"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-black hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://wa.me/6281285736866"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-black hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>WhatsApp</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://github.com/callaworldxx"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-black hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://tugas-finexo.github.io/"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-black hover:bg-black hover:text-white"
+              >
+                <svg
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 496 496"
+                  xml:space="preserve"
+                  width="20"
+                  class="fill-current"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M424,248c0-97.048-78.952-176-176-176S72,150.952,72,248s78.952,176,176,176S424,345.048,424,248z M248.008,408 c-16.728,0-32.848-2.6-48.008-7.376V304h-16v90.552c-8.4-3.68-16.424-8.048-24-13.064V304c0-22.056,17.944-40,40-40h96 c22.056,0,40,17.944,40,40h-51.056l-13.792-27.576l-14.312,7.16L267.056,304H216v16h16v8l6.12,43.4 c1.68,11.744,11.888,20.6,23.76,20.6h55.408C296.288,402.144,272.848,408,248.008,408z M184,184c0-35.288,28.712-64,64-64 c35.288,0,64,28.712,64,64c0,35.288-28.712,64-64,64C212.712,248,184,219.288,184,184z M344,327.432l-5.96,41.704 c-0.552,3.912-3.96,6.864-7.912,6.864H261.88c-3.952,0-7.36-2.952-7.912-6.864L248,327.432V320h27.056l13.792,27.576l14.312-7.16 L292.944,320H344V327.432z M354.504,367.072l5.424-37.936L359.96,320H376v-16h-24c0-30.872-25.128-56-56-56h-0.208 C315.296,233.4,328,210.184,328,184c0-44.112-35.888-80-80-80s-80,35.888-80,80c0,26.184,12.704,49.4,32.208,64H200 c-30.872,0-56,25.128-56,56v65.344C109.784,339.976,88,296.52,88,248c0-88.224,71.776-160,160-160s160,71.776,160,160 C408,295.304,387.248,337.752,354.504,367.072z"
+                          ></path>
+                          <path
+                            d="M455.824,240.928l-11.384-7.584l-8.872,13.312l29.456,19.64l28.64-28.64l-11.312-11.312l-10.624,10.624 C465.952,118.56,367.816,24,248,24v16C360.328,40,452.072,129.504,455.824,240.928z"
+                          ></path>
+                          <path
+                            d="M40.176,255.072l11.384,7.584l8.872-13.312l-29.456-19.64l-28.64,28.64l11.312,11.312l10.624-10.624 C30.048,377.44,128.184,472,248,472v-16C135.672,456,43.928,366.496,40.176,255.072z"
+                          ></path>
+                          <path
+                            d="M64,128c35.288,0,64-28.712,64-64S99.288,0,64,0S0,28.712,0,64C0,99.288,28.712,128,64,128z M64,16 c26.472,0,48,21.528,48,48s-21.528,48-48,48S16,90.472,16,64S37.528,16,64,16z"
+                          ></path>
+                          <path
+                            d="M56,95.592V104h16v-8.408C81.12,93.736,88,85.656,88,76c0-11.032-8.968-20-20-20h-8c-2.2,0-4-1.8-4-4s1.8-4,4-4h8 c2.2,0,4,1.8,4,4v4h16v-4c0-9.664-6.88-17.736-16-19.592V24H56v8.408C46.88,34.264,40,42.336,40,52c0,11.032,8.968,20,20,20h8 c2.2,0,4,1.8,4,4s-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-4H40v4C40,85.664,46.88,93.736,56,95.592z"
+                          ></path>
+                          <path
+                            d="M432,368c-35.288,0-64,28.712-64,64c0,35.288,28.712,64,64,64c35.288,0,64-28.712,64-64C496,396.712,467.288,368,432,368 z M432,480c-26.472,0-48-21.528-48-48s21.528-48,48-48s48,21.528,48,48S458.472,480,432,480z"
+                          ></path>
+                          <path
+                            d="M440,400.408V392h-16v8.408c-9.12,1.856-16,9.936-16,19.592c0,11.032,8.968,20,20,20h8c2.2,0,4,1.8,4,4s-1.8,4-4,4h-8 c-2.2,0-4-1.8-4-4v-4h-16v4c0,9.664,6.88,17.736,16,19.592V472h16v-8.408c9.12-1.856,16-9.936,16-19.592c0-11.032-8.968-20-20-20 h-8c-2.2,0-4-1.8-4-4s1.8-4,4-4h8c2.2,0,4,1.8,4,4v4h16v-4C456,410.336,449.12,402.264,440,400.408z"
+                          ></path>
+                          <rect x="32" y="416" width="16" height="16"></rect>
+                          <rect
+                            x="9.389"
+                            y="425.358"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 311.5237 114.6318)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect y="448" width="16" height="16"></rect>
+                          <rect
+                            x="9.395"
+                            y="470.629"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -308.746 829.3701)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="32" y="480" width="16" height="16"></rect>
+                          <rect
+                            x="54.59"
+                            y="470.634"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -231.5972 861.3365)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="64" y="448" width="16" height="16"></rect>
+                          <rect
+                            x="54.608"
+                            y="425.363"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 324.7716 82.6588)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="448" width="16" height="16"></rect>
+                          <rect
+                            x="425.365"
+                            y="9.386"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 139.2232 -301.3432)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="416" y="32" width="16" height="16"></rect>
+                          <rect
+                            x="425.36"
+                            y="54.637"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 695.5008 413.3591)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="448" y="64" width="16" height="16"></rect>
+                          <rect
+                            x="470.622"
+                            y="54.631"
+                            transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 861.3454 -231.5201)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="480" y="32" width="16" height="16"></rect>
+                          <rect
+                            x="470.619"
+                            y="9.38"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 152.4735 -333.3445)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Sertif Section Start -->
+     <section id="sertifikat" class="pt-36 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 ">Sertifikat</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Sertifikat Saya</h2>
+                    <P class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus amet perspiciatis reiciendis aperiam aut voluptatem repellendus corrupti, consectetur ipsa voluptas minima et beatae obcaecati blanditiis, enim, nemo consequatur voluptatum.</P>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif1.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Keperserta MSIB</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif2.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Basic English Education Standardization</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif3.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Microsoft Office Specialist (MOS)</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif4.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Machine Learning Basics Phyton</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/seritf5.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Data Science</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif6.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Dear To Speak by Pintarpsikologi</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif7.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Green Transform Concert</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+            </div>
+        </div>
+
+     </section>
+    <!-- Sertif Section End -->
+
+     <!--  Portofolio Section Start -->
+     <section id="portofolio" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 ">Portofolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Saya</h2>
+                    <P class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus amet perspiciatis reiciendis aperiam aut voluptatem repellendus corrupti, consectetur ipsa voluptas minima et beatae obcaecati blanditiis, enim, nemo consequatur voluptatum.</P>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif1.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Keperserta MSIB</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif2.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Basic English Education Standardization</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif3.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Microsoft Office Specialist (MOS)</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/sertifikat/sertif4.jpg" alt="Image" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sertifikat Machine Learning Basics Phyton</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi officiis harum dolorum sequi, blanditiis nemo quia ullam, excepturi minima illo sed eum autem ut expedita magni vitae veritatis. Architecto?</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Portofolio Section End -->
+
+
+    <!-- Blog Section Start -->
+     <section  id="blog" class="pt-36 pb-32 ">
+        <div class="container">
+            <div class="w-full">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 ">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
+                    <P class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus amet perspiciatis reiciendis aperiam aut voluptatem repellendus corrupti, consectetur ipsa voluptas minima et beatae obcaecati blanditiis, enim, nemo consequatur voluptatum.</P>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl  shadow-lg overflow-hidden mb-10">
+                        <img src="src/img/blog/1.jpg" alt="Image" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="https://beritahangat24.com/penggunaan-kipas-angin-dapat-menyebabkan-sakit-kepala/" class="block mb-3 font-semibold text-xl text-darl hover:text-primary truncate">Penggunaan Kipas Angin Dapat Menyebabkan Sakit Kepala</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellat earum illo corrupti incidunt, maiores laboriosam culpa, nostrum harum cumque, voluptas molestiae! Modi explicabo perspiciatis animi veritatis? Culpa, iure dignissimos!</p>
+                        <a href="https://beritahangat24.com/penggunaan-kipas-angin-dapat-menyebabkan-sakit-kepala/" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl  shadow-lg overflow-hidden mb-10">
+                        <img src="src/img/blog/2.jpg" alt="Image" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="https://beritahangat24.com/tindakan-pelecehan-seksual-membuat-korban-takut-dan-malu/" class="block mb-3 font-semibold text-xl text-darl hover:text-primary truncate">Tindakan Pelecehan Seksual Membuat Korban Takut Dan Malu</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellat earum illo corrupti incidunt, maiores laboriosam culpa, nostrum harum cumque, voluptas molestiae! Modi explicabo perspiciatis animi veritatis? Culpa, iure dignissimos!</p>
+                        <a href="https://beritahangat24.com/tindakan-pelecehan-seksual-membuat-korban-takut-dan-malu/" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl  shadow-lg overflow-hidden mb-10">
+                        <img src="src/img/blog/3.jpg" alt="Image" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="https://beritahangat24.com/buah-pisang-memiliki-berbagai-jenis-dan-varietas/" class="block mb-3 font-semibold text-xl text-darl hover:text-primary truncate">Buah Pisang Memiliki Berbagai Jenis Dan Varietas</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellat earum illo corrupti incidunt, maiores laboriosam culpa, nostrum harum cumque, voluptas molestiae! Modi explicabo perspiciatis animi veritatis? Culpa, iure dignissimos!</p>
+                        <a href="https://beritahangat24.com/buah-pisang-memiliki-berbagai-jenis-dan-varietas/" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+     <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 ">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+                    <P class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus amet perspiciatis reiciendis aperiam aut voluptatem repellendus corrupti, consectetur ipsa voluptas minima et beatae obcaecati blanditiis, enim, nemo consequatur voluptatum.</P>
+                </div>
+            </div>
+
+            <form>
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-primary">Nama</label>
+                <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+            </div>
+            <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-bold text-primary">Email</label>
+                <input type="text" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+            </div>
+            <div class="w-full px-4 mb-8">
+                <label for="message" class="text-base font-bold text-primary">Pesan</label>
+                <textarea type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+            <div class="w-full px-4">
+                <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+            </div>
+            </div>
+            </form>
+        </div>
+     </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start-->
+     <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-200 font-medium md:w-1/3">
+                <h2 class="font-bold text-4xl text-white mb-5">HUBUNGI</h2>
+                <h3 class="font-bold text-2xl mb-2">Chairani Nadila</h3>
+                <p>chairaninadilaa@gmail.com</p>
+                <p>+6281285736766</p>
+                <p>Jakarta, Indonesia</p>
+                </div>
+
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                        </li>
+                        <li>
+                            <a href="#sertifikat" class="inline-block text-base hover:text-primary mb-3">Sertifikat</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="inline-block text-base hover:text-primary mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                        <li></li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/cndilacc/"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-white hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://wa.me/6281285736866"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-white hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>WhatsApp</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://github.com/callaworldxx"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-white hover:bg-black hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://tugas-finexo.github.io/"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-400 hover:border-white hover:bg-black hover:text-white"
+              >
+                <svg
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 496 496"
+                  xml:space="preserve"
+                  width="20"
+                  class="fill-current"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M424,248c0-97.048-78.952-176-176-176S72,150.952,72,248s78.952,176,176,176S424,345.048,424,248z M248.008,408 c-16.728,0-32.848-2.6-48.008-7.376V304h-16v90.552c-8.4-3.68-16.424-8.048-24-13.064V304c0-22.056,17.944-40,40-40h96 c22.056,0,40,17.944,40,40h-51.056l-13.792-27.576l-14.312,7.16L267.056,304H216v16h16v8l6.12,43.4 c1.68,11.744,11.888,20.6,23.76,20.6h55.408C296.288,402.144,272.848,408,248.008,408z M184,184c0-35.288,28.712-64,64-64 c35.288,0,64,28.712,64,64c0,35.288-28.712,64-64,64C212.712,248,184,219.288,184,184z M344,327.432l-5.96,41.704 c-0.552,3.912-3.96,6.864-7.912,6.864H261.88c-3.952,0-7.36-2.952-7.912-6.864L248,327.432V320h27.056l13.792,27.576l14.312-7.16 L292.944,320H344V327.432z M354.504,367.072l5.424-37.936L359.96,320H376v-16h-24c0-30.872-25.128-56-56-56h-0.208 C315.296,233.4,328,210.184,328,184c0-44.112-35.888-80-80-80s-80,35.888-80,80c0,26.184,12.704,49.4,32.208,64H200 c-30.872,0-56,25.128-56,56v65.344C109.784,339.976,88,296.52,88,248c0-88.224,71.776-160,160-160s160,71.776,160,160 C408,295.304,387.248,337.752,354.504,367.072z"
+                          ></path>
+                          <path
+                            d="M455.824,240.928l-11.384-7.584l-8.872,13.312l29.456,19.64l28.64-28.64l-11.312-11.312l-10.624,10.624 C465.952,118.56,367.816,24,248,24v16C360.328,40,452.072,129.504,455.824,240.928z"
+                          ></path>
+                          <path
+                            d="M40.176,255.072l11.384,7.584l8.872-13.312l-29.456-19.64l-28.64,28.64l11.312,11.312l10.624-10.624 C30.048,377.44,128.184,472,248,472v-16C135.672,456,43.928,366.496,40.176,255.072z"
+                          ></path>
+                          <path
+                            d="M64,128c35.288,0,64-28.712,64-64S99.288,0,64,0S0,28.712,0,64C0,99.288,28.712,128,64,128z M64,16 c26.472,0,48,21.528,48,48s-21.528,48-48,48S16,90.472,16,64S37.528,16,64,16z"
+                          ></path>
+                          <path
+                            d="M56,95.592V104h16v-8.408C81.12,93.736,88,85.656,88,76c0-11.032-8.968-20-20-20h-8c-2.2,0-4-1.8-4-4s1.8-4,4-4h8 c2.2,0,4,1.8,4,4v4h16v-4c0-9.664-6.88-17.736-16-19.592V24H56v8.408C46.88,34.264,40,42.336,40,52c0,11.032,8.968,20,20,20h8 c2.2,0,4,1.8,4,4s-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-4H40v4C40,85.664,46.88,93.736,56,95.592z"
+                          ></path>
+                          <path
+                            d="M432,368c-35.288,0-64,28.712-64,64c0,35.288,28.712,64,64,64c35.288,0,64-28.712,64-64C496,396.712,467.288,368,432,368 z M432,480c-26.472,0-48-21.528-48-48s21.528-48,48-48s48,21.528,48,48S458.472,480,432,480z"
+                          ></path>
+                          <path
+                            d="M440,400.408V392h-16v8.408c-9.12,1.856-16,9.936-16,19.592c0,11.032,8.968,20,20,20h8c2.2,0,4,1.8,4,4s-1.8,4-4,4h-8 c-2.2,0-4-1.8-4-4v-4h-16v4c0,9.664,6.88,17.736,16,19.592V472h16v-8.408c9.12-1.856,16-9.936,16-19.592c0-11.032-8.968-20-20-20 h-8c-2.2,0-4-1.8-4-4s1.8-4,4-4h8c2.2,0,4,1.8,4,4v4h16v-4C456,410.336,449.12,402.264,440,400.408z"
+                          ></path>
+                          <rect x="32" y="416" width="16" height="16"></rect>
+                          <rect
+                            x="9.389"
+                            y="425.358"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 311.5237 114.6318)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect y="448" width="16" height="16"></rect>
+                          <rect
+                            x="9.395"
+                            y="470.629"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -308.746 829.3701)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="32" y="480" width="16" height="16"></rect>
+                          <rect
+                            x="54.59"
+                            y="470.634"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -231.5972 861.3365)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="64" y="448" width="16" height="16"></rect>
+                          <rect
+                            x="54.608"
+                            y="425.363"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 324.7716 82.6588)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="448" width="16" height="16"></rect>
+                          <rect
+                            x="425.365"
+                            y="9.386"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 139.2232 -301.3432)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="416" y="32" width="16" height="16"></rect>
+                          <rect
+                            x="425.36"
+                            y="54.637"
+                            transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 695.5008 413.3591)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="448" y="64" width="16" height="16"></rect>
+                          <rect
+                            x="470.622"
+                            y="54.631"
+                            transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 861.3454 -231.5201)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                          <rect x="480" y="32" width="16" height="16"></rect>
+                          <rect
+                            x="470.619"
+                            y="9.38"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 152.4735 -333.3445)"
+                            width="16"
+                            height="16"
+                          ></rect>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <p class="font-medium text-xs text-white text-center">Dibuat dengan <span class="text-pink-600"> ❤️</span> oleh <a href="https://instagram.com/cndilacc" target="_blank" class="font-bold text-primary"> Chairani Nadila</a>, menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold">Tailwind CSS</a></p>
+            </div>
+        </div>
+     </footer>
+    <!-- Footer Section End -->
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
